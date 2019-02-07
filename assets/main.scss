@@ -7,9 +7,17 @@
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
+@import url('https://fonts.googleapis.com/css?family=Dosis');
 
 .main-container{
 
-    min-height: 100vh;
+    min-height: 81vh;
 
+}
+
+body
+{   
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
 }
